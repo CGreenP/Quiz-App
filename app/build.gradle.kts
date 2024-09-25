@@ -29,9 +29,22 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+    buildFeatures{
+        dataBinding=true
+    }
 }
 
 dependencies {
+
+    val lifecycle_version = "2.8.4"
+    // ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version")
+    // LiveData
+    implementation("androidx.lifecycle:lifecycle-livedata:$lifecycle_version")
+    //Retrofit
+    implementation ("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
 
     implementation(libs.appcompat)
     implementation(libs.material)

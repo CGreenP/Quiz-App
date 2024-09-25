@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_back_result"
+        tools:context=".ResultsActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Result"
+            android:textColor="@color/gold"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_margin="30dp"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/txtAnswer"
+            android:text="Your Score is : 0/10"
+            android:textColor="@color/cream"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_margin="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBack"
+            android:text="Back to Quiz"
+            android:textColor="@color/deep_purple"
+            android:backgroundTint="@color/gold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="48dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -2,4 +2,21 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+<!--    Main Colors-->
+    <color name="deep_purple">#4A0E4E</color>
+    <color name="gold">#D4AF37</color>
+    <color name="cream">#F5E6D3</color>
+    <color name="charcoal">#36454F</color>
+
+<!--    Text Colors-->
+    <color name="quiz_heading">#D4AF37</color>
+    <color name="question_text">#F5E6D3</color>
+    <color name="option_text">#F5E6D3</color>
+    <color name="correct_answer_counter">#D4AF37</color>
+
+<!--    Button Colors-->
+    <color name="next_button_background">#D4AF37</color>
+    <color name="next_button_text">#4A0E4E</color>
+
 </resources>

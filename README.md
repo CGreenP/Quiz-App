@@ -46,3 +46,14 @@ Inspired by the Udemy course on [**The Complete Android 15 Course -Build 82 Apps
   * MVVM
 * Creating Database using phpMyAdmin
 * Creating API in PHP
+
+
+# Output Screenshot-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/962b4b23-38d4-4d62-aa1a-63f582ebfd3b" width="288">
+<img src="https://github.com/user-attachments/assets/ecd8e77c-5e67-4c66-9871-8fe6e9a0421a" width="288">
+<img src="https://github.com/user-attachments/assets/54913740-72a3-4783-9122-ea5a68cda30b" width="288">
+</p>
+
+# Output Video-
+https://github.com/user-attachments/assets/e9a50693-925e-4df0-93f7-7c63acdc743d

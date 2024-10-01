@@ -57,3 +57,9 @@ Inspired by the Udemy course on [**The Complete Android 15 Course -Build 82 Apps
 
 # Output Video-
 https://github.com/user-attachments/assets/e9a50693-925e-4df0-93f7-7c63acdc743d
+
+# Database Structure
+![2024-09-28 18 34 24 localhost 99c7d37892d8](https://github.com/user-attachments/assets/457e4dff-5a76-48fe-b244-273f3d02db12)
+
+# JSON response from server
+![JSON](https://github.com/user-attachments/assets/767df6ff-f8b8-487e-a038-b543fe3d8fa8)
